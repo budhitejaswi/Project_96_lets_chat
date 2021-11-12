@@ -1,0 +1,93 @@
+.body_background 
+{
+    background: rgb(228,155,244);
+    background: -moz-linear-gradient(0deg, rgba(228,155,244,1) 0%, rgba(80,114,167,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(228,155,244,1) 0%, rgba(80,114,167,1) 100%);
+    background: linear-gradient(0deg, rgba(228,155,244,1) 0%, rgba(80,114,167,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e49bf4",endColorstr="#5072a7",GradientType=1);
+    
+}
+body{
+    text-align: center;
+}
+
+#logout
+{
+	font-size: 20px; float: right;
+    word-spacing: 2px;;
+}
+
+
+#output
+{
+	padding: 10px; 
+    width:80%;
+    background: rgb(230, 228, 228);
+    border-radius: 15px;
+}
+
+#logo{
+    width:300px;
+    border:double;
+    color: rgb(184, 214, 132);
+    border-radius: 15px;
+    border-width: 10px;
+
+}
+
+h1{
+    color:rgb(66, 111, 112);
+    text-shadow: 1px 1px white;
+    font-family: fantasy;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(174, 157, 236);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h2{
+    font-family: 'Fruktur', cursive;
+    text-shadow: 1px 1px rgb(240, 247, 150);
+
+}
+h3{
+    font-size: 27px;
+    color:antiquewhite;
+    text-shadow: 1px 3px black;
+    font-family: cursive;
+}
+label {
+    font-size: 18px;
+  
+}
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
